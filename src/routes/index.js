@@ -1,7 +1,7 @@
 import { Router } from 'express';
 import { web3, myContract, account } from '../instance.js';
 import multer from 'multer';
-import { create } from 'ipfs-http-client';
+import { create } from 'kubo-rpc-client';
 const router = Router();
 const upload = multer();
 
